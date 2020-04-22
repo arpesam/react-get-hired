@@ -1,0 +1,47 @@
+.profile-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 264px;
+  min-height: 250px;
+  position: relative;
+  padding-left: 17px;
+  text-align: left;
+  margin: 10px;
+}
+
+p.profile-card-title {
+  color: grey;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+p.profile-card-subtitle {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #004280;
+}
+
+button.profile-card-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #1890FF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
