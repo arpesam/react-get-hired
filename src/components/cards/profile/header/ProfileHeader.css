@@ -1,0 +1,10 @@
+h1.profile-card-title {
+  color: grey;
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+h3.profile-card-subtitle {
+  color: #004280;
+  font-size: 1em;
+}

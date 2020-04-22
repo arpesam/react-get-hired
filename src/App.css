@@ -1,14 +1,24 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  min-height: 100%;
 }
 
 .container {
+  min-height: 100%;
   padding: 0 100px;
+}
+
+.footer {
+  width: auto;
+  position: relative;
+  height: 72px;
+  background-color: white;
+  margin-top: -72px;
+  clear: both;
 }
 
 @media (prefers-reduced-motion: no-preference) {
