@@ -1,0 +1,7 @@
+.content-header {
+  text-align: start;
+}
+
+.content-header > h1 {
+  font-size: 2em;
+}

@@ -1,4 +1,4 @@
-export const profiles = [
+export const profilesApi = [
   {
     id: 1,
     name: 'Danilo Sampaio',

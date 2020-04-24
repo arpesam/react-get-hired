@@ -1,10 +1,18 @@
+.main-content-container {
+  background-color: #E6F7FF;
+  overflow: auto;
+  padding-bottom: 72px;
+}
+
 .main-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
-  background-color: #E6F7FF;
-  overflow: auto;
-  padding-bottom: 72px;
+}
+
+.pagination-container {
+  text-align: center;
+  border: 1px solid red;
 }
