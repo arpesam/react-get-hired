@@ -5,14 +5,13 @@ import Footer from './components/footer/Footer';
 import './App.css';
 
 
-
 function App() {
   return (
     <div className="App">
-      <div className="page-content-wrap">
+      {/* <div className="page-content-wrap"> */}
         <Navbar />
         <PageContent />
-      </div>
+      {/* </div> */}
       <Footer />
     </div>
   );
