@@ -1,7 +1,7 @@
 import React from 'react'
 import RegisterButton from './register-button/register-button.component';
 
-import './navbar.style.css'
+import './Navbar.css'
 
 
 const Navbar = () => {

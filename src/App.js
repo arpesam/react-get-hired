@@ -1,27 +1,19 @@
 import React from 'react';
-import { Layout } from 'antd';
-import Navbar from './components/navbar/navbar.component';
-import MainContent from './containers/MainContent';
-import FooterContent from './components/footer/FooterContent';
+import Navbar from './components/navbar/Navbar';
+import PageContent from './containers/PageContent';
+import Footer from './components/footer/Footer';
 import './App.css';
 
-const { Header, Footer, Content } = Layout;
 
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <Header>
-          <Navbar />
-        </Header>
-        <Content className="content">
-          <MainContent />
-        </Content>
-        {/* <Footer className="footer">
-          <FooterContent />
-        </Footer> */}
-      </Layout>
+      <div className="page-content-wrap">
+        <Navbar />
+        <PageContent />
+      </div>
+      <Footer />
     </div>
   );
 }

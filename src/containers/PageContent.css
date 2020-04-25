@@ -1,18 +1,14 @@
-.main-content-container {
+.page-content {
   background-color: #E6F7FF;
-  overflow: auto;
   padding-bottom: 72px;
+  border: 1px solid red;
+  height: 100%;
 }
 
-.main-content {
+.cards-wrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
-}
-
-.pagination-container {
-  text-align: center;
-  border: 1px solid red;
 }

@@ -1,24 +1,20 @@
 .App {
   text-align: center;
-  height: 100%;
+  position: relative;
+  min-height: 100vh;
 }
 
-.content {
-  min-height: 100%;
+p, h1, h3 {
+  margin: 10px 0;
+  color: #00284D;
 }
 
 .container {
-  min-height: 100%;
   padding: 0 100px;
 }
 
-.footer {
-  width: auto;
-  position: relative;
-  height: 72px;
-  background-color: white;
-  margin-top: -72px;
-  clear: both;
+.page-content-wrap {
+  padding-bottom: 120px;    /* Footer height */
 }
 
 @media (prefers-reduced-motion: no-preference) {
