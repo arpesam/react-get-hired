@@ -1,7 +1,9 @@
 .content-header {
+  width: 50%;
   text-align: start;
 }
 
 .content-header > h1 {
   font-size: 2em;
+  margin-top: 0;
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import { profilesApi } from '../api/profiles';
-import Filters from '../components/filters/Filters';
+import { profilesApi } from '../../api/profiles';
+import Filters from '../../components/filters/Filters';
 import { description, title } from './page-header-text';
-import Pagination from '../components/pagination/Pagination';
-import ProfileCard from '../components/cards/profile/ProfileCard';
-import ContentHeader from '../components/content-header/ContentHeader';
+import Pagination from '../../components/pagination/Pagination';
+import ProfileCard from '../../components/cards/profile/ProfileCard';
+import ContentHeader from '../../components/content-header/ContentHeader';
 import './PageContent.css';
 
 
