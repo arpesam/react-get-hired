@@ -31,7 +31,7 @@ const PageContent = () => {
   //   />
   // );
 
-  const page = true;
+  // const page = true;
 
   return (
     <div className="container page-content" >

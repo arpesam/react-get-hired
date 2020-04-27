@@ -11,8 +11,17 @@ p, h1, h3 {
   color: #00284D;
 }
 
-.container {
-  padding: 0 100px;
+a {
+  text-align: center;
+  /* padding: 12px; */
+  color: #1890FF;
+  text-decoration: underline;
+  font-size: 1.063em;
+}
+
+.page-container {
+  box-sizing: border-box;
+  padding: 0 20px;
 }
 
 .page-content-wrap {

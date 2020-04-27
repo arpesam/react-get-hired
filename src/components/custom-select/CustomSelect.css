@@ -1,0 +1,10 @@
+select {
+  height: 30px;
+  width: 200px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.65);
+}
+
