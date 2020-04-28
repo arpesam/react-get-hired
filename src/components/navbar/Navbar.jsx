@@ -4,13 +4,13 @@ import RegisterButton from './register-button/RegisterButton';
 import './Navbar.css'
 
 
-const Navbar = () => {
+const Navbar = ({ onChangePage }) => {
   return (
-    <div className="navbar">
+    <div className="page-container custom-navbar">
       <h1>Get Hired</h1>
       <div>
-        <a href="google.com">Pessoas</a>
-        <a href="google.com">Vagas</a>
+        <div className="menu-item" onClick={() => onChangePage('profiles')} >Pessoas</div>
+        <div className="menu-item" onClick={() => onChangePage('jobs')} >Vagas</div>
         <RegisterButton />
       </div>
     </div>

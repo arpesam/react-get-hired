@@ -3,7 +3,6 @@ import './CustomSelect.css';
 
 
 const CustomSelect = ({ options }) => {
-
   return (
     <div className="custom-select" style={{ width: '200px' }}>
       <select>

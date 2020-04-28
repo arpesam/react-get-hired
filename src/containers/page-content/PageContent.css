@@ -1,15 +1,18 @@
 .page-content {
-  background-color: #E6F7FF;
+  flex-grow: 3;
   display: flex;
   flex-direction: column;
+  background-color: #E6F7FF;
   justify-content: space-between;
-
+  height: 100%;
+  margin-top: 20px;
 }
 
 .cards-wrap {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-content: space-between;
+  margin: 0 -25px
 }

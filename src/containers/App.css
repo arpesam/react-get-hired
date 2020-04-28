@@ -6,14 +6,13 @@
   justify-content: space-between;
 }
 
-p, h1, h3 {
+p, h1, h3, h4 {
   margin: 10px 0;
   color: #00284D;
 }
 
 a {
   text-align: center;
-  /* padding: 12px; */
   color: #1890FF;
   text-decoration: underline;
   font-size: 1.063em;
@@ -21,9 +20,5 @@ a {
 
 .page-container {
   box-sizing: border-box;
-  padding: 0 20px;
-}
-
-.page-content-wrap {
-  /* padding-bottom: 120px; */
+  padding: 0 50px;
 }

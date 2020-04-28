@@ -1,0 +1,41 @@
+
+.job-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  min-width: 360px;
+  min-height: 150px;
+  text-align: left;
+  flex: 0 1 20%;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 10px;
+}
+
+.job-card-content {
+  padding: 12px 0 0 15px;
+}
+
+.release-date {
+  font-size: 0.75em;
+  color: #547899;
+  margin: 0;
+}
+
+.show-more {
+  width: 110px;
+  color: #FFFFFF;
+  background-color: #1890FF;
+  text-align: center;
+  padding-top: 17%;
+  cursor: pointer;
+  font-size: 1.125em;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.show-more:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}

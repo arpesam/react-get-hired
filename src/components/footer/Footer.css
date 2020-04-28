@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  box-shadow: 0px 9px 28px;
 }
 
 .footer-content span {

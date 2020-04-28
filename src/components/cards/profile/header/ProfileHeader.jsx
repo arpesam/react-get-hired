@@ -3,7 +3,6 @@ import './ProfileHeader.css'
 
 
 const ProfileHeader = ({ name, position }) => {
-  console.log('name --', position)
   return (
     <div>
       <h1 className="profile-card-title">{name}</h1>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { HeartFilled } from '@ant-design/icons';
 import './Footer.css';
 
 
@@ -8,8 +9,7 @@ const Footer = () => {
       <a href="/google.com" >Sobre o projeto</a>
       <div>
         Feito com {' '}
-        {/* <i class="fa fa-heart">S2</i> */}
-        <span>&hearts;</span>
+        <HeartFilled style={{ fontSize: '16px', color: 'red' }} />
         {' '} por {' '}
         <a
           href="https://github.com/arpesam"
