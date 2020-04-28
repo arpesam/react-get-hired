@@ -24,6 +24,7 @@ const JobsCard = (props) => {
       <a
         href={url}
         target="_blank"
+        rel="noopener noreferrer"
         className="show-more"
       >Saiba mais</a>
     </div>
