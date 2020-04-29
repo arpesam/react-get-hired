@@ -29,6 +29,7 @@ const PageContent = ({ currentPage }) => {
     console.log('page change')
     // ...working on this
     alert("Sorry! Ainda estou trabalhando nisso")
+    setOffset()
   }
 
   return (

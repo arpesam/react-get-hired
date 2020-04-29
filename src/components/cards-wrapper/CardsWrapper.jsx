@@ -2,7 +2,6 @@ import React from 'react';
 import JobsCard from '../cards/job/JobsCard';
 import ProfileCard from '../cards/profile/ProfileCard';
 import Loading from '../loading/Loading';
-import { profilesApi } from '../../api/profiles';
 import { pages } from '../../constants/pages';
 import './CardsWrapper.css';
 
