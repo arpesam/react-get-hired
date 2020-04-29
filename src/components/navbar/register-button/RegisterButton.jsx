@@ -5,6 +5,9 @@ const RegisterButton = () => {
   const [showOptions, setShowOptions] = useState(false);
 
   const handleDropdownClick = () => setShowOptions(!showOptions);
+  const handleClick = () => {
+    return alert("Sorry! Ainda estou trabalhando nisso")
+  }
 
   return (
   <div className="dropdown">
@@ -18,8 +21,8 @@ const RegisterButton = () => {
       className="dropdown-content"
       style={{ display: showOptions ? 'block' : 'none' }}
     >
-      <div>Vagas</div>
-      <div>Profissionais</div>
+      <div onClick={handleClick} >Vagas</div>
+      <div onClick={handleClick} >Profissionais</div>
     </div>
   </div>
   )

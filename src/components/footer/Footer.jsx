@@ -6,7 +6,9 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="page-container footer-content" >
-      <a href="/google.com" >Sobre o projeto</a>
+      <a href="https://github.com/arpesam/react-get-hired" >
+        Sobre o projeto
+      </a>
       <div>
         Feito com {' '}
         <HeartFilled style={{ fontSize: '16px', color: 'red' }} />

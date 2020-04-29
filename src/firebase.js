@@ -2,7 +2,7 @@ import firebase from  'firebase';
 
 
 const config = {
-  // this is here just to demonstrate the application working
+  // I know how dangerous it is, this is here just to show the project running to Italo;
   // !!! WARNING !!!!
   apiKey: "AIzaSyBnwdGi8KCkwU9oHquKg2irLR2svIrP1x4",
   authDomain: "get-hired-30927.firebaseapp.com",

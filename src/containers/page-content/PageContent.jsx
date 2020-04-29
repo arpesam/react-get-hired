@@ -27,8 +27,8 @@ const PageContent = ({ currentPage }) => {
   const onChangePage = (interval) => {
     console.log('page change')
     // ...working on this
+    alert("Sorry! Ainda estou trabalhando nisso")
   }
-
 
   return (
     <div className="page-container page-content" >

@@ -1,4 +1,15 @@
+## About this project
+This project was created to help those who were fired from their jobs because of Covid-19. The idea is to list jobs in various areas, so that people can easily consult these vacancies and relocate.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Some observations
+This project was designed by Ant Design. As a challenge, I decided not to use the lib and make the UI as close to the lib as possible using pure Css.
+
+The firebase apiKey is in the project, I know how dangerous it could be, but don't worry. The purpose is only show the application running without any pre set. 
+
+## Structure
+You can find the project entry point in the containers folder, there you will find App.jsx. Once in this component, it will be extremely easy to understand the structure of the project.
 
 ## Available Scripts
 
