@@ -1,4 +1,6 @@
 ## About this project
+First of all, please read Changelog to see what I'm doing and what are going to be the next steps.
+
 This project was created to help those who were fired from their jobs because of Covid-19. The idea is to list jobs in various areas, so that people can easily consult these vacancies and relocate.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
