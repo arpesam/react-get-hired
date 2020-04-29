@@ -13,7 +13,7 @@ You can find the project entry point in the containers folder, there you will fi
 
 ## Running the project
 
-First of all you need to setup your firebase config. To do so, go to (Firebase Docs)[https://firebase.google.com/docs/web/setup] or give a look in this (video)[https://www.youtube.com/watch?v=yyo_TcZCrS4]. 
+First of all you need to setup your firebase config. To do so, go to [Firebase Docs](https://firebase.google.com/docs/web/setup) or give a look in this [video](https://www.youtube.com/watch?v=yyo_TcZCrS4). 
 You can find the `.env.example` to config your firebase. Just put the info like google gives to you.
 
 If you are not interested in run locally the project, you can go to https://arpesam.github.io/react-get-hired/. 
