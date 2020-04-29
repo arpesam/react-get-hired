@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import firebase from '../../firebase';
 import { jobsApi } from '../../api/jobs';
 import { pages } from '../../constants/pages';
 import { profilesApi } from '../../api/profiles';
@@ -11,19 +12,37 @@ import './PageContent.css';
 
 
 const PageContent = ({ currentPage }) => {
+  const [jobs, setJobs] = useState([]);
+
+  const db = firebase.firestore();
+
+  const collection = {
+    profiles: db.collection("profiles"),
+    jobs: db.collection("jobs"),
+  }[currentPage];
 
   const profilesMap = profilesApi.map((profile) => (
     <ProfileCard key={profile.id} profile={profile} />
   ))
 
-  const jobsMap = jobsApi.map((job) => (
-    <JobsCard key={job.id} job={job} />
+  const jobsMap = jobs.map((job, index) => (
+    <JobsCard key={index} job={job} />
   ))
+
 
   const getCurrentPage = () => {
     if (currentPage === pages.profiles) return profilesMap;
     if (currentPage === pages.jobs) return jobsMap;
   }
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await collection.get()
+      setJobs(data.docs.map(doc => doc.data()))
+    }
+    fetchData()
+  }, [])
+
 
   return (
     <div className="page-container page-content" >
@@ -32,7 +51,7 @@ const PageContent = ({ currentPage }) => {
       <div className="cards-wrap" >
         {getCurrentPage()}
       </div>
-      <Pagination />
+      <Pagination totalCount={jobsApi.length} />
     </div>
   )
 }
