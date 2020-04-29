@@ -19,3 +19,20 @@
   font-size: 1.063em;
   cursor: pointer;
 }
+
+.logo > h1 {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo img {
+    display: none;
+  }
+  .logo h1 {
+    display: block;
+    color: #1890FF;
+  }
+  .custom-navbar {
+    justify-content: space-between;
+  }
+}

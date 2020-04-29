@@ -7,8 +7,9 @@ import './Navbar.css'
 const Navbar = ({ onChangePage }) => {
   return (
     <div className="page-container custom-navbar">
-      <div>
+      <div className="logo">
         <img src={logo} alt="Get Hired Logo" width="230px" />
+        <h1>GH</h1>
       </div>
       <div>
         <div className="menu-item" onClick={() => onChangePage('profiles')} >Pessoas</div>
