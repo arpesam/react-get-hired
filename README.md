@@ -11,6 +11,8 @@ You can find the project entry point in the containers folder, there you will fi
 
 ## Available Scripts
 
+First of all you need to setup your firebase config. To do so, go to (Firebase Docs)[https://firebase.google.com/docs/web/setup] or give a look in this (video)[https://www.youtube.com/watch?v=yyo_TcZCrS4].
+
 In the project directory, you can run:
 
 ### `yarn start`
