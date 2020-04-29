@@ -16,8 +16,12 @@ const CardsWrapper = ({ currentPage, data }) => {
 
   const getCurrentPage = () => {
     if (currentPage === pages.profiles)
-      return data.map((profile) => (
-        <ProfileCard key={profile.id} profile={profile} />
+      /*
+        The current data that I'm using in firebase has no ID, thats
+        why I'm using index as key 
+     */
+      return data.map((profile, index) => (
+        <ProfileCard key={index} profile={profile} />
       ));
 
     if (currentPage === pages.jobs)
