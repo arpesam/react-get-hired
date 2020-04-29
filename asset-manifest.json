@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-get-hired/static/css/main.9d0a49cf.chunk.css",
-    "main.js": "/react-get-hired/static/js/main.dcdd54eb.chunk.js",
-    "main.js.map": "/react-get-hired/static/js/main.dcdd54eb.chunk.js.map",
+    "main.js": "/react-get-hired/static/js/main.9c5072ec.chunk.js",
+    "main.js.map": "/react-get-hired/static/js/main.9c5072ec.chunk.js.map",
     "runtime-main.js": "/react-get-hired/static/js/runtime-main.c2cdc2d7.js",
     "runtime-main.js.map": "/react-get-hired/static/js/runtime-main.c2cdc2d7.js.map",
-    "static/js/2.5b4b4ddf.chunk.js": "/react-get-hired/static/js/2.5b4b4ddf.chunk.js",
-    "static/js/2.5b4b4ddf.chunk.js.map": "/react-get-hired/static/js/2.5b4b4ddf.chunk.js.map",
+    "static/js/2.5d412208.chunk.js": "/react-get-hired/static/js/2.5d412208.chunk.js",
+    "static/js/2.5d412208.chunk.js.map": "/react-get-hired/static/js/2.5d412208.chunk.js.map",
     "index.html": "/react-get-hired/index.html",
-    "precache-manifest.1377db536820dd834e180e46747965bc.js": "/react-get-hired/precache-manifest.1377db536820dd834e180e46747965bc.js",
+    "precache-manifest.3e38386934355a0e382e41d53d1ce766.js": "/react-get-hired/precache-manifest.3e38386934355a0e382e41d53d1ce766.js",
     "service-worker.js": "/react-get-hired/service-worker.js",
     "static/css/main.9d0a49cf.chunk.css.map": "/react-get-hired/static/css/main.9d0a49cf.chunk.css.map",
-    "static/js/2.5b4b4ddf.chunk.js.LICENSE.txt": "/react-get-hired/static/js/2.5b4b4ddf.chunk.js.LICENSE.txt"
+    "static/js/2.5d412208.chunk.js.LICENSE.txt": "/react-get-hired/static/js/2.5d412208.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c2cdc2d7.js",
-    "static/js/2.5b4b4ddf.chunk.js",
+    "static/js/2.5d412208.chunk.js",
     "static/css/main.9d0a49cf.chunk.css",
-    "static/js/main.dcdd54eb.chunk.js"
+    "static/js/main.9c5072ec.chunk.js"
   ]
 }
