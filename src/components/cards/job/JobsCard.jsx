@@ -13,8 +13,6 @@ const JobsCard = (props) => {
     description,
   } = props.job;
 
-  console.log('job --', props)
-
   return (
     <div className="job-card" >
       <div className="job-card-content">

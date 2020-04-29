@@ -1,18 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Pagination.css';
 
 
-const Pagination = () => {
+const Pagination = ({ onChangePage }) => {
+  const [pageConfig, setPageConfig] = useState({
+    start: 1,
+    end: 6,
+    currentPage: 1,
+    limit: 5,
+  })
+
+  const handlePagination = (value) => {
+    if (pageConfig.currentPage <= 1 && value === -1) return;
+    const currentOffset = pageConfig.end;
+
+    setPageConfig({
+      ...pageConfig,
+      currentPage: pageConfig.currentPage + value,
+      start: currentOffset,
+      end: currentOffset + pageConfig.limit,
+    });
+    onChangePage(pageConfig.end);
+  }
+
   return (
     <div className="pagination">
-      <a href="/google.com">&laquo;</a>
-      <a href="/google.com">1</a>
-      <a className="active" href="/google.com">2</a>
-      <a href="/google.com">3</a>
-      <a href="/google.com">4</a>
-      <a href="/google.com">5</a>
-      <a href="/google.com">6</a>
-      <a href="/google.com">&raquo;</a>
+      <div onClick={() => handlePagination(1)} >
+        MOSTRAR MAIS
+      </div>
     </div>
   )
 }
