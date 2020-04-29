@@ -8,7 +8,11 @@ import { pages } from '../../constants/pages';
 
 const CardsWrapper = ({ currentPage, data }) => {
 
-  if (!currentPage || !data.length) return <Loading />
+  if (!currentPage || !data.length) return (
+    <div>
+      <Loading />
+    </div>
+  )
 
   const getCurrentPage = () => {
     if (currentPage === pages.profiles)

@@ -1,7 +1,9 @@
 {
   "name": "react-get-hired",
   "version": "0.1.0",
+  "author": "daniloarpesam@gmail.com",
   "private": true,
+  "homepage": "http://arpesam.github.io/react-get-hired",
   "dependencies": {
     "@ant-design/icons": "^4.0.6",
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,6 +12,7 @@
     "antd": "^4.1.4",
     "bootstrap": "^4.4.1",
     "firebase": "^7.14.2",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -19,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,3 +1,4 @@
+// Fake data to try without use real date.
 export const profilesApi = [
   {
     id: 1,

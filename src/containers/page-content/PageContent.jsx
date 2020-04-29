@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { collections } from '../../firebase';
 import Filters from '../../components/filters/Filters';
 import Pagination from '../../components/pagination/Pagination';
-import CardsWapper from '../../components/card-wrapper/CardsWrapper';
+import CardsWapper from '../../components/cards-wrapper/CardsWrapper';
 import ContentHeader from '../../components/content-header/ContentHeader';
 import './PageContent.css';
 
@@ -13,6 +13,7 @@ const PageContent = ({ currentPage }) => {
 
 
   useEffect(() => {
+    setData([])
     const fetchData = async () => {
       const content = await collections[currentPage]
         .orderBy("place")
@@ -22,7 +23,7 @@ const PageContent = ({ currentPage }) => {
       setData(content.docs.map(doc => doc.data()));
     }
     fetchData()
-  }, [])
+  }, [currentPage, offset])
 
   const onChangePage = (interval) => {
     console.log('page change')

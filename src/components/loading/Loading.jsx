@@ -1,10 +1,6 @@
 import React from 'react'
 import './Loading.css';
 
-const Loading = () => (
-  <div className="loader-container" >
-    <div className="loader"></div>
-  </div>
-)
+const Loading = () => (<div className="loader"></div>)
 
 export default Loading;
